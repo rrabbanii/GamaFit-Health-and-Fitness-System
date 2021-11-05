@@ -237,7 +237,7 @@ void sleep_info (sleep_track &sleep)
     else if (minute<480&&minute>=360)
         cout << "You Are Slightly Lacking Sleep, Please Try to Aim For 8 Hours";
     else
-        cout << "You Are Sleep Deprived :(, Please Add Your Sleep Yime Immediately and Aim For 8 Hours";
+        cout << "You Are Sleep Deprived :(, Please Add Your Sleep Time Immediately and Aim For 8 Hours";
     cout << "\n\nEnter any key(s) to exit: ";
     cin >> key; 
 }
@@ -405,7 +405,7 @@ void mainscreen(userid &user_info, step_count &step, sleep_track &sleep, bmi_cou
         cout << "3. Sleep Tracker" << endl;
         cout << "4. Body Mass Index" << endl;
         cout << "5. Help" << endl;
-        cout << "6. Quit Program" << endl;
+        cout << "6. Log Out" << endl;
         cout << "\nSelect Options (1-5): ";
         cin >> option;
         
@@ -497,4 +497,3 @@ int main()
     mainscreen(user_info, step,sleep,bmi);
     return 0;
 }
-
